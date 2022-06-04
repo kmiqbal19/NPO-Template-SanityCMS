@@ -4,12 +4,9 @@ export default {
   type: "document",
   fields: [
     {
-      name: "imageurl",
-      title: "ImageUrl",
-      type: "image",
-      options: {
-        hotspot: true,
-      },
+      name: "projectfburl",
+      title: "FB Url",
+      type: "string",
     },
     {
       name: "projecttitle",

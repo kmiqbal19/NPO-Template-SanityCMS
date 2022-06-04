@@ -5,6 +5,7 @@ import createSchema from "part:@sanity/base/schema-creator";
 import schemaTypes from "all:part:@sanity/base/schema-type";
 import projects from "./projects";
 import gallery from "./gallery";
+import slider from "./slider";
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -15,5 +16,6 @@ export default createSchema({
     /* Your types here! */
     projects,
     gallery,
+    slider,
   ]),
 });
