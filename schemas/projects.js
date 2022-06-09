@@ -31,5 +31,10 @@ export default {
       title: "Video Link",
       type: "string",
     },
+    {
+      name: "videodesc",
+      title: "Video Description",
+      type: "text",
+    },
   ],
 };

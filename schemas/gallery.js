@@ -4,6 +4,14 @@ export default {
   type: "document",
   fields: [
     {
+      name: "imageurl",
+      title: "ImageUrl",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+    },
+    {
       name: "projectfburl",
       title: "FB Url",
       type: "string",
@@ -12,6 +20,11 @@ export default {
       name: "projecttitle",
       title: "Project Title",
       type: "string",
+    },
+    {
+      name: "projectdesc",
+      title: "Project Description",
+      type: "text",
     },
     {
       name: "projectdate",
